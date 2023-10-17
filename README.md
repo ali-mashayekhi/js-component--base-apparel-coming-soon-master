@@ -18,9 +18,8 @@ This project is made by only html and css and vanilla javascript so you just nee
 
 ## Overview
 
-<img src="design/screenshot-mobile.png" width="20%" margin="0 auto">
-![](design/screenshot-desktop.png)
-![](design/screenshot-mobile.png)
+<img src="design/screenshot-desktop.png" width="80%">
+<img src="design/screenshot-mobile.png" width="40%">
 
 - [Live-Demo](https://main--ali-base-aparel-coming-soon-master.netlify.app/)
 - [Solution URL](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-rfY11gYGGI)
