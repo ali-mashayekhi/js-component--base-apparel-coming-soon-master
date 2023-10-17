@@ -6,6 +6,9 @@ let inputValidation = true;
 
 formEl.addEventListener("submit", (e) => {
   e.preventDefault();
+
+  if (!inputValidation) return;
+
   const inputValue = e.target[0].value.trim();
 
   if (inputValue.length && inputValue.includes("@")) return;
