@@ -1,33 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <!-- Custom Font -->
+    <link href="https://fonts.cdnfonts.com/css/josefin-sans" rel="stylesheet" />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Custo Scripts -->
+    <script defer src="./script.js"></script>
 
-  We're coming soon
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <section class="hero-section">
+      <div class="hero">
+        <header class="header-box">
+          <img
+            class="header-logo"
+            src="./images/logo.svg"
+            alt="Base Apparel logo"
+          />
+        </header>
+        <img
+          src="./images/hero-mobile.jpg"
+          alt="A woman"
+          class="hero-img-mobile"
+        />
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
+        <img
+          class="hero-img-desktop"
+          src="./images/hero-desktop.jpg"
+          alt="A woman"
+        />
 
-  Email Address
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+        <div class="hero-body">
+          <h1 class="primary-header text-center">
+            <span>We're</span>coming soon
+          </h1>
+          <p class="hero-description text-center">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+          <form class="cta-form">
+            <div class="input-box">
+              <input
+                type="text"
+                placeholder="Email Address"
+                class="cta-input"
+              />
+              <div class="cta-btn-box">
+                <button class="cta-btn">
+                  <img src="./images/icon-arrow.svg" alt="arrow right icon" />
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://twitter.com/alimashayekhi42">Ali Mashayekhi</a>.
+      </p>
+    </footer>
+  </body>
 </html>
