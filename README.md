@@ -1,15 +1,5 @@
 # Frontend Mentor - Base Apparel coming soon page solution
 
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Receive an error message when the `form` is submitted if:
-  - The `input` field is empty
-  - The email address is not formatted correctly
-
-# Frontend Mentor - Base Apparel coming soon page solution
-
 Hero component with a cta section that only recieves email address and do a simple validation for email text.
 
 ## Installation
@@ -31,6 +21,16 @@ This project is made by only html and css and vanilla javascript so you just nee
 - CSS Grid
 - Mobile-first workflow
 - Vanilla javascript
+
+### Challange
+
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Receive an error message when the `form` is submitted if:
+  - The `input` field is empty
+  - The email address is not formatted correctly
 
 ## Credits
 
